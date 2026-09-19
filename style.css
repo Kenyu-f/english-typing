@@ -1,0 +1,19 @@
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#111;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+main{width:min(900px,92vw);margin:90px auto;text-align:center}
+h1{font-size:18px;font-weight:500;letter-spacing:.04em;margin-bottom:55px}
+.controls{display:flex;justify-content:center;align-items:center;gap:10px;font-size:13px}
+input{border:1px solid #ccc;border-radius:3px;background:#fff;color:#111}
+.controls input{width:75px;padding:7px}
+button{border:1px solid #222;background:#111;color:#fff;border-radius:3px;padding:8px 16px;cursor:pointer}
+#game{margin-top:85px}
+#progress{font-size:11px;color:#888;margin-bottom:35px}
+#meaning{font-size:22px;min-height:32px;margin-bottom:24px}
+#word{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:28px;letter-spacing:.08em;min-height:40px;margin-bottom:30px}
+#answer{width:min(520px,90%);padding:12px 14px;font:18px ui-monospace,SFMono-Regular,Menlo,monospace;text-align:center;outline:none}
+#answer:focus{border-color:#111}
+#hint{height:22px;margin-top:14px;font-size:11px;color:#999}
+#result{margin-top:80px}
+#score{font-size:14px;margin-bottom:20px}
+#mistakeTitle{font-size:11px;color:#777;margin-top:45px;margin-bottom:10px}
+#mistakes{max-width:760px;margin:auto;font:14px ui-monospace,SFMono-Regular,Menlo,monospace;line-height:1.8}
